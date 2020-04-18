@@ -34,12 +34,23 @@ requirements.
 * Clone this repository to your working development environment.
 * Install dependencies by running `npm install` in the root of the repository.
 * Test the site by running `npm run serve` to start the development server.
+
 * Read through the site code and note the following:
     * What directories do you see? How do you interpret their names?
+        .git: includes information about the gihub repo
+        docs: includes the the static files
+        public: what the viewers see like the favicon
+
     * Where is the Vue app defined? (Which file?)
+        The Vue app is defined in the App.vue
+
     * What is listed in `package.json`?
+        This file includes the listings of npm dependencies and devDependencies- It includes scripts object that defines the command line scripts that can be run to build for dev and production
+
 * Press `ctrl-c` in the terminal to exit the development server.
+
 * Run `npm run build` and take a look at both the webpage that comes up and the output in the console.  
+
 Consider the following questions:
     * what is in the node_modules directory?
     * where can you find the directions for the scripts run with `npm run`, that is the `serve` and `build` scripts  
